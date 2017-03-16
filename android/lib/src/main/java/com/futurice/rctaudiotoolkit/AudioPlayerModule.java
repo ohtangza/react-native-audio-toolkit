@@ -279,7 +279,7 @@ public class AudioPlayerModule extends ReactContextBaseJavaModule implements Med
         }
 
         this.playerAutoDestroy.put(playerId, autoDestroy);
-        this.playerContinueInBackground.put(playerId, autoDestroy);
+        this.playerContinueInBackground.put(playerId, continueInBackground);
 
         try {
             player.prepare();
